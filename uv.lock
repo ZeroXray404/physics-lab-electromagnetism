@@ -756,7 +756,7 @@ wheels = [
 ]
 
 [[package]]
-name = "physics-lab02-electromagnetism"
+name = "physics-lab-electromagnetism"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [

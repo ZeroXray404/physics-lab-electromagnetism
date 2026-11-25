@@ -1,5 +1,5 @@
 [project]
-name = "physics-lab02-electromagnetism"
+name = "physics-lab-electromagnetism"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -14,7 +14,7 @@ dependencies = [
 ]
 
 [project.scripts]
-physics-lab02-electromagnetism = "physics_lab02_electromagnetism:main"
+physics-lab-electromagnetism = "physics_lab_electromagnetism:main"
 
 [build-system]
 requires = ["uv_build>=0.12.5,<0.13.0"]
