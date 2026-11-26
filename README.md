@@ -21,7 +21,7 @@ The experimental measurements are processed using Python to calculate magnetic f
 
 ## Setup
 
-Set up Python and install the locked project dependencies:
+Install the pinned Python version and locked project dependencies:
 
 ```
 uv sync --locked
@@ -29,7 +29,8 @@ uv sync --locked
 
 Open `analysis.ipynb` in VS Code and select the project's `.venv` under **Select Kernel → Python Environments**.
 
-`.python-version` selects the Python 3.13 series. Run `uv python upgrade 3.13` to install a newer patch release.
+`.python-version` pins Python 3.13.15 because VS Code can save incomplete Python version metadata for a uv environment created with only `3.13` specified.
+If VS Code still shows an incomplete version, move the existing `.venv` to an unused backup name, run `uv sync --locked` again, and reload the VS Code window before selecting the new `.venv`.
 
 ## Project structure
 
